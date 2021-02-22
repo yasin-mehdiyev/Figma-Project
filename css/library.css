@@ -1,0 +1,716 @@
+/* Common Proporities */
+
+* {
+    box-sizing: border-box;
+}
+
+a:hover {
+    color: #000;
+}
+
+figure {
+    padding: 0 0.6rem 0 0;
+}
+
+
+/* Common Proporities */
+
+
+/* Change Custom Scroll Bar */
+
+::-webkit-scrollbar-thumb,
+ ::-webkit-scrollbar-track {
+    border-radius: 10px;
+    box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+}
+
+ ::-webkit-scrollbar {
+    width: 8px;
+}
+
+ ::-webkit-scrollbar-thumb {
+    background-color: #5c8065;
+}
+
+ ::-webkit-scrollbar-track {
+    background-color: white;
+}
+
+
+/* Change Custom Scroll Bar */
+
+
+/* Opacity */
+
+.opacity-0 {
+    opacity: 0;
+    transition: opacity .5s ease-out;
+}
+
+.opacity-1 {
+    opacity: 1;
+}
+
+
+/* Opacity */
+
+
+/* Position */
+
+.pos-relative {
+    position: relative;
+}
+
+.pos-absolute {
+    position: absolute;
+}
+
+.t-12 {
+    top: 12px;
+}
+
+.t-50 {
+    top: 50px;
+}
+
+.t-55 {
+    top: 55px;
+}
+
+.l-12 {
+    left: 12px;
+}
+
+.r-12 {
+    right: 12px;
+}
+
+
+/* Position */
+
+
+/* Flex */
+
+.justify-content-space-between {
+    justify-content: space-between;
+}
+
+
+/* Flex */
+
+
+/* Width */
+
+.w-15 {
+    width: 15px;
+}
+
+.w-16 {
+    width: 16px;
+}
+
+.w-25 {
+    width: 25px!important;
+}
+
+.w-30 {
+    width: 30px;
+}
+
+.w-90p {
+    width: 90%;
+}
+
+.w-100p {
+    width: 100%;
+}
+
+.mw-85 {
+    max-width: 85%;
+}
+
+
+/* Width */
+
+
+/* Background Colors */
+
+.bg-bisque {
+    background-color: bisque;
+}
+
+.bg-E0E0E9 {
+    background-color: #E0E0E9;
+}
+
+.bg-ffffff {
+    background-color: #FFFFFF;
+}
+
+.bg-ECF0F6 {
+    background-color: #ECF0F6;
+}
+
+.bg-FFD504 {
+    background-color: #FFD504;
+}
+
+.bg-f9f9f9 {
+    background-color: #f9f9f9;
+}
+
+.bg-F9FAFD {
+    background-color: #F9FAFD;
+}
+
+.bg-F9CF00 {
+    background-color: #F9CF00;
+}
+
+.bgcolor-F8F8FA {
+    background-color: #F8F8FA;
+}
+
+
+/* Background Colors */
+
+
+/* Margins */
+
+.m-010 {
+    margin: 0 10px;
+}
+
+.mt-5 {
+    margin-top: 5px!important;
+}
+
+.mt-7 {
+    margin-top: 7px;
+}
+
+.mt-33 {
+    margin-top: 33px;
+}
+
+.mb-8 {
+    margin-bottom: 8px;
+}
+
+.ml-2 {
+    margin-left: 10px;
+}
+
+.mr-2 {
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+.mr-3 {
+    margin-right: 15px;
+}
+
+.mn-2 {
+    margin-top: -2px;
+}
+
+.ml-7p {
+    margin-left: 7%;
+}
+
+.ml-20p {
+    margin-left: 20%;
+}
+
+
+/* Margins */
+
+
+/* Heights */
+
+.h-14 {
+    height: 14px;
+}
+
+.h-18 {
+    height: 18px;
+}
+
+.h-20 {
+    height: 20px;
+}
+
+.h-40 {
+    height: 40px;
+}
+
+.h-243 {
+    height: 243px;
+}
+
+.h-100vh {
+    height: 100vh;
+}
+
+.lh-24 {
+    line-height: 24px;
+}
+
+.lh-28 {
+    line-height: 28px;
+}
+
+.lh-30 {
+    line-height: 30px;
+}
+
+.lh-35 {
+    line-height: 35px;
+}
+
+.lh-40 {
+    line-height: 40px;
+}
+
+.lh-45 {
+    line-height: 45px;
+}
+
+
+/* Heights */
+
+
+/* Font-Sizes,Font-Styles and Font-Weights */
+
+.fs-30 {
+    font-size: 30px;
+}
+
+.fs-20 {
+    font-size: 20px;
+}
+
+.fs-16 {
+    font-size: 16px;
+}
+
+.fs-15 {
+    font-size: 15px;
+}
+
+.fs-11 {
+    font-size: 11px;
+}
+
+.fs-13 {
+    font-size: 13px;
+}
+
+.fs-oblique {
+    font-style: oblique;
+}
+
+.fw-400 {
+    font-weight: 400;
+}
+
+.fw-600 {
+    font-weight: 600;
+}
+
+
+/* Font-Sizes,Font-Styles and Font-Weights */
+
+
+/* Colors */
+
+.color-000000 {
+    color: #000000;
+}
+
+.color-26272F {
+    color: #26272F;
+}
+
+.color-202429 {
+    color: #202429;
+}
+
+.color-9497AA {
+    color: #9497AA;
+}
+
+.color-616875 {
+    color: #616875;
+}
+
+.color-FF9D02 {
+    color: #FF9D02;
+}
+
+.color-FF4034 {
+    color: #FF4034;
+}
+
+.color-FFFFFF {
+    color: #FFFFFF;
+}
+
+.color-A1AAB9 {
+    color: #A1AAB9;
+}
+
+.color-778091 {
+    color: #778091;
+}
+
+
+/* Colors */
+
+
+/* Text-Decorations */
+
+.td-none {
+    text-decoration: none;
+}
+
+.text-upper {
+    text-transform: uppercase;
+}
+
+.list-reset {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+
+/* Text-Decorations */
+
+
+/* Paddings */
+
+.p-lr0 {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.p-5 {
+    padding: 5px!important;
+}
+
+.p-8 {
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+.p-10 {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.p-12 {
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+
+.p-16 {
+    padding-left: 16px;
+    padding-right: 16px;
+}
+
+.p-20 {
+    padding-right: 20px;
+}
+
+.p-40 {
+    padding-left: 40px;
+}
+
+.p-4530 {
+    padding-top: 45px;
+    padding-bottom: 30px;
+}
+
+.pt-33 {
+    padding-top: 33px;
+}
+
+.pb-3 {
+    padding-bottom: 10px;
+}
+
+.pbt-16 {
+    padding-top: 16px;
+    padding-bottom: 16px;
+}
+
+.pbt-20 {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.pbt-21 {
+    padding-top: 21px;
+    padding-bottom: 21px;
+}
+
+.pbt-22 {
+    padding-top: 22px;
+    padding-bottom: 22px;
+}
+
+.px-2 {
+    padding-left: 2px!important;
+    padding-right: 2px!important;
+}
+
+.px-20 {
+    padding-left: 20px!important;
+    padding-right: 20px!important;
+}
+
+.py-5 {
+    padding-top: 5px!important;
+    padding-bottom: 5px!important;
+}
+
+
+/* Paddings */
+
+
+/* Border Radius */
+
+.borderRadius-5 {
+    border-radius: 5px;
+}
+
+.borderRadius-12 {
+    border-radius: 12px;
+}
+
+.borderRadius-35 {
+    border-radius: 35px;
+}
+
+.borderRadius-40 {
+    border-radius: 40px;
+}
+
+.borderRadius-60 {
+    border-radius: 60px;
+}
+
+
+/* Border Radius */
+
+
+/* Borders */
+
+.border-BED3F3 {
+    border: 1px solid #BED3F3;
+}
+
+.border-E7E7EF {
+    border: 1px solid #E7E7EF;
+}
+
+
+/* Borders */
+
+
+/* Cursor Pointer */
+
+.c-pointer {
+    cursor: pointer;
+}
+
+
+/* Cursor Pointer */
+
+
+/* Search Btn */
+
+#myInput {
+    background-image: url('../img/Search-Bar-Library.png');
+    background-position: 10px 12px;
+    background-repeat: no-repeat;
+}
+
+
+/* Search Btn */
+
+
+/* Dropdown Menu */
+
+.d-inline-block {
+    display: inline-block;
+}
+
+.overflow-auto {
+    overflow: auto;
+}
+
+.mn-120 {
+    min-width: 120px;
+}
+
+.mn-150 {
+    min-width: 150px;
+}
+
+.dropdown-content {
+    display: none;
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.12);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    text-align: center;
+    padding: 12px 16px;
+    font-size: 14px;
+    font-weight: 400;
+    text-decoration: none;
+    display: block;
+    transition: background .5s ease-out;
+}
+
+.dropdown-content a:hover {
+    background: #ddd;
+}
+
+.dropdown-delete a:last-child:hover {
+    color: #FF4034;
+}
+
+
+/* Dropdown Menu */
+
+
+/* Modal */
+
+
+/* The Modal (background) */
+
+#myPopup,
+#uploadPopup {
+    display: none;
+    position: fixed;
+    z-index: 999;
+    padding-top: 100px;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+
+/* The Modal (background) */
+
+
+/* Modal Content */
+
+.popup-content,
+.uploader-content {
+    background-color: #fefefe;
+    margin: auto;
+    margin-top: 3%;
+    padding: 20px;
+    background: #FFFFFF;
+    box-shadow: 0px 8px 16px rgb(0 0 0 / 12%);
+    border-radius: 12px;
+}
+
+.popup-content {
+    width: 45%;
+}
+
+.uploader-content {
+    width: 60%;
+}
+
+
+/* Modal Content */
+
+
+/* The Close Button */
+
+.popup-close {
+    color: #aaaaaa;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.popup-close:hover,
+.popup-close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+
+/* The Close Button */
+
+
+/* Modal */
+
+
+/* Box-Shadow */
+
+.box-shadow {
+    box-shadow: 0px -8px 32px rgb(20 25 34 / 4%), 0px 26px 40px rgb(20 25 34 / 8%);
+}
+
+
+/* Box-Shadow */
+
+
+/* Hover Effect */
+
+.card:hover {
+    box-shadow: 0px -8px 32px rgba(20, 25, 34, 0.04), 0px 26px 40px rgba(20, 25, 34, 0.08);
+}
+
+.card:hover .pdf-icon {
+    opacity: 1;
+}
+
+.popup-box {
+    transition: all .5s ease-out;
+}
+
+.popup-box:hover {
+    box-shadow: 0px 6px 14px rgba(15, 15, 16, 0.12);
+}
+
+
+/* Hover Effect */
+
+
+/* Reset */
+
+.import {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+
+/* Reset */
+
+
+/* JS Add Remove Classes */
+
+.clicked-text {
+    background: #000000;
+    color: #FFFFFF;
+}
+
+.clicked-text:hover {
+    color: #FFFFFF;
+}
+
+
+/* JS Add Remove Classes */

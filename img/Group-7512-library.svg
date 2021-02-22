@@ -1,0 +1,16 @@
+<svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+<circle cx="24" cy="24" r="24" fill="#FF9D02"/>
+<mask id="mask0" mask-type="alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="48" height="48">
+<circle cx="24" cy="24" r="24" fill="#F8F8FA"/>
+</mask>
+<g mask="url(#mask0)">
+<path d="M10 21C10 19.8954 10.8954 19 12 19H30V51H10V21Z" fill="#1238FF"/>
+<path d="M38 21C38 29.8366 31.732 37 24 37C16.268 37 10 29.8366 10 21C10 12.1634 16.268 5 24 5C31.732 5 38 12.1634 38 21Z" fill="#1238FF"/>
+<rect x="16.4004" y="25.9131" width="6.0828" height="0.3" transform="rotate(59.0231 16.4004 25.9131)" fill="#0046C0"/>
+<ellipse cx="31" cy="22" rx="2" ry="3" fill="white"/>
+<path d="M28 36L30 30.5L29 25.5L31.5 24.5L39.5 41L30 42.5L28 36Z" fill="white"/>
+<path d="M31.5 21.9999C31.5 28.6274 28.9708 36.5001 24.0002 36.5001C19.0297 36.5001 12 24.1274 12 17.5C18 19.9999 18.0294 17.9999 23 17.9999C27.9706 17.9999 29 23.4999 31.5 21.9999Z" fill="white"/>
+<rect x="18.6602" y="27.3496" width="5.57423" height="0.46628" rx="0.2" transform="rotate(59.0231 18.6602 27.3496)" fill="#1238FF"/>
+<path d="M17.5 47L38.5 39L41 44L21 52.5L17.5 47Z" fill="#1BDFEC"/>
+</g>
+</svg>

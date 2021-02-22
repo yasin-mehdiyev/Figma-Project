@@ -1,0 +1,600 @@
+/* Common Proporities */
+
+* {
+    box-sizing: border-box;
+}
+
+section {
+    padding: 50px 0px;
+}
+
+
+/* Common Proporities */
+
+
+/* Change Custom Scroll Bar */
+
+::-webkit-scrollbar-thumb,
+ ::-webkit-scrollbar-track {
+    border-radius: 10px;
+    box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+}
+
+ ::-webkit-scrollbar {
+    width: 8px;
+}
+
+ ::-webkit-scrollbar-thumb {
+    background-color: #5c8065;
+}
+
+ ::-webkit-scrollbar-track {
+    background-color: white;
+}
+
+
+/* Change Custom Scroll Bar */
+
+
+/* Preloader Section */
+
+.preloader-active {
+    position: fixed;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+    height: 100%;
+    width: 100%;
+    z-index: 99999;
+}
+
+.preloader-active .preloader-area-wrap {
+    background-color: #ffffff;
+    position: absolute;
+    left: 0;
+    display: block;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    z-index: 999999;
+}
+
+.preloader-active .preloader-area-wrap .spinner div {
+    background-color: #086AD8;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    margin-right: 15px;
+    animation: sk-bouncedelay 1.4s infinite ease-in-out both;
+}
+
+.preloader-active .preloader-area-wrap .spinner div.bounce1 {
+    animation-delay: -0.32s;
+}
+
+.preloader-active .preloader-area-wrap .spinner div.bounce2 {
+    animation-delay: -0.16s;
+}
+
+@keyframes sk-bouncedelay {
+    0%,
+    80%,
+    100% {
+        transform: scale(0);
+    }
+    40% {
+        transform: scale(1);
+    }
+}
+
+.preloader-area-wrap {
+    display: none;
+}
+
+.open_tm_preloader {
+    position: fixed;
+    background-color: transparent;
+    z-index: 9999;
+    height: 100%;
+    width: 100%;
+    transition: .2s all ease;
+    transition-delay: .5s;
+}
+
+.open_tm_preloader.loaded {
+    opacity: 0;
+    visibility: hidden;
+}
+
+.open_tm_preloader.loaded:before,
+.open_tm_preloader.loaded:after {
+    width: 0%;
+}
+
+.open_tm_preloader:before,
+.open_tm_preloader:after {
+    content: "";
+    position: absolute;
+    height: 100%;
+    width: 50%;
+    background-color: #fff;
+    transition: all 0.5s ease-in-out;
+}
+
+.open_tm_preloader:before {
+    top: 0;
+    left: 0;
+}
+
+.open_tm_preloader:after {
+    bottom: 0;
+    right: 0;
+}
+
+
+/* Preloader Section */
+
+
+/* Header Section */
+
+header {
+    padding-top: 15px;
+    position: relative;
+    background-image: url(../img/MaskGroup.svg);
+    background-size: cover;
+}
+
+header .menu .logo,
+footer .footer_up .logo {
+    text-decoration: none;
+}
+
+header .menu .logo figure,
+.footer_up .logo figure {
+    padding: 0 0.6rem 0 0;
+}
+
+header .menu .logo span,
+.footer_up .logo span {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 40px;
+    color: #000000;
+}
+
+header .menu .loginBtn {
+    height: 45px;
+    padding: 0 30px;
+    line-height: 40px;
+    background-color: #ECF0F6;
+    border: 1px solid #BED3F3;
+    border-radius: 60px;
+    text-decoration: none;
+    color: #000000;
+    font-size: 14px;
+}
+
+header .main_content {
+    margin-top: 65px;
+}
+
+header .main_content .left_content h2,
+#focusOn .focusOn_content h2 {
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 32px;
+    color: #000000;
+}
+
+header .main_content .left_content p,
+#focusOn .focusOn_content p {
+    margin: 5px 0px;
+    font-weight: normal;
+    line-height: 28px;
+}
+
+header .main_content .left_content .btns a,
+#focusOn .focusOn_content .btns a {
+    width: 150px;
+    height: 47px;
+    line-height: 45px;
+    text-align: center;
+    text-decoration: none;
+    color: #000000;
+    border-radius: 12px;
+    font-size: 14px;
+    font-weight: 400;
+    display: inline-block;
+    margin-top: 15px;
+}
+
+header .main_content .left_content .btns a:first-child,
+#focusOn .focusOn_content .btns a:first-child {
+    background: #FFD504;
+    margin-right: 20px;
+}
+
+header .main_content .left_content .btns a:last-child,
+#focusOn .focusOn_content .btns a:last-child {
+    background: #ECF0F6;
+}
+
+
+/* Header Section */
+
+
+/* Knowledge Section */
+
+#knowledge {
+    background-color: #F9FAFD;
+}
+
+#knowledge .title h4 {
+    font-size: 30px;
+    line-height: 40px;
+    margin-bottom: 45px;
+}
+
+#knowledge .content {
+    text-align: center;
+}
+
+#knowledge .content .content_photo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#knowledge .content img {
+    width: 65px;
+    height: 55px;
+    object-fit: contain;
+}
+
+#knowledge .content span {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+}
+
+#knowledge .content p {
+    width: 98%;
+    margin-top: 25px;
+    line-height: 24px;
+}
+
+
+/* Knowledge Section */
+
+
+/* Common Proporities for Consolidate,Manage and TakeOut Section */
+
+.box_photo {
+    background-image: url(../img/Vector_bg.png);
+    background-position: center center;
+}
+
+.box h4 {
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 40px;
+    color: #000000;
+}
+
+.box p {
+    font-size: 14px;
+    line-height: 25px;
+    color: #000000;
+}
+
+.box a {
+    color: #000000;
+}
+
+
+/* Common Proporities for Consolidate,Manage and TakeOut Section */
+
+
+/*  Compatibility Section */
+
+#compatibility {
+    background-color: #F9FAFD;
+}
+
+
+/*  Compatibility Section */
+
+
+/* Keep Annotating-1 Section */
+
+#document_keep_annotating .document_ka_title h4 {
+    text-transform: capitalize;
+    color: #000000;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 32px;
+}
+
+#document_keep_annotating .document_ka_title p {
+    color: #616875;
+    font-size: 14px;
+    line-height: 24px;
+}
+
+#document_keep_annotating .box_ka {
+    text-align: center;
+    margin-bottom: 55px;
+}
+
+#document_keep_annotating .box_ka h5 {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+    color: #000000;
+}
+
+#document_keep_annotating .box_ka p {
+    padding: 0px 55px;
+    color: #616875;
+    font-size: 14px;
+    line-height: 24px;
+}
+
+#document_keep_annotating .monitor_ka .monitor {
+    position: relative;
+}
+
+#document_keep_annotating .monitor_ka .monitor .figures {
+    position: absolute;
+}
+
+#document_keep_annotating .monitor_ka .monitor .figures img {
+    max-width: 85%;
+}
+
+#document_keep_annotating .monitor_ka .monitor .figures:last-child img {
+    max-width: 100%;
+}
+
+#document_keep_annotating .monitor_ka .monitor .figures.figure_yellow {
+    top: 13%;
+    left: -45%;
+}
+
+#document_keep_annotating .monitor_ka .monitor .figures.figure_green {
+    top: 63%;
+    left: -42%;
+}
+
+#document_keep_annotating .monitor_ka .monitor .figures.figure_orange {
+    top: 14%;
+    right: -59%;
+}
+
+#document_keep_annotating .monitor_ka .monitor .figures.figure_blue {
+    top: 61%;
+    right: -40%;
+}
+
+#document_keep_annotating .monitor_ka .bottom_text {
+    text-align: center;
+    margin-top: 30%;
+}
+
+#document_keep_annotating .monitor_ka .bottom_text a {
+    color: #000000;
+}
+
+
+/* Keep Annotating-1 Section */
+
+
+/* Keep Annotating-2 Section */
+
+#news_keep_annotating {
+    background: radial-gradient(118.49% 193.74% at 108.77% -23.6%, #3787FF 0%, #6562FF 100%);
+}
+
+#news_keep_annotating .box_keep_annotating {
+    background: #FFFFFF;
+    border: 1px solid #BED3F3;
+    border-radius: 16px;
+    padding: 23px 24px;
+    margin-bottom: 25px;
+}
+
+#news_keep_annotating .box_keep_annotating .box_title {
+    position: relative;
+}
+
+#news_keep_annotating .box_keep_annotating .box_title .left_box_title .profile {
+    margin-right: 10px;
+}
+
+#news_keep_annotating .box_keep_annotating .box_title .left_box_title .person h5 {
+    font-size: 14px;
+    margin-bottom: -6px;
+    color: #000;
+}
+
+#news_keep_annotating .box_keep_annotating .box_title .left_box_title .person span {
+    font-size: 12px;
+    color: #616875;
+}
+
+#news_keep_annotating .box_keep_annotating .box_title .left_box_title .approval_icon {
+    margin-top: -4px;
+    margin-left: 4px;
+}
+
+#news_keep_annotating .box_keep_annotating .box_title .right_box_title {
+    position: absolute;
+    right: 0;
+    top: -4px;
+}
+
+#news_keep_annotating .box_keep_annotating .box_content p {
+    font-size: 14px;
+    line-height: 20px;
+    color: #616875;
+}
+
+
+/* Keep Annotating-2 Section */
+
+
+/* Focus On Section */
+
+#focusOn {
+    background-image: url('../img/Mask_Group.png');
+    background-size: cover;
+    padding: 75px 0px;
+}
+
+
+/* Focus On Section */
+
+
+/* Footer Section */
+
+footer {
+    padding: 45px 0px 30px 0px;
+}
+
+footer .footer_up .text p {
+    line-height: 24px;
+    color: #9497AA;
+    font-size: 15px;
+}
+
+footer .footer_up .product,
+footer .footer_up .company,
+footer .footer_up .legal {
+    margin-top: 5px;
+}
+
+footer .footer_up .product span,
+footer .footer_up .company span,
+footer .footer_up .legal span {
+    font-size: 14px;
+    line-height: 30px;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: #000000;
+}
+
+footer .footer_up .product ul,
+footer .footer_up .company ul,
+footer .footer_up .legal ul {
+    color: #616875;
+    line-height: 28px;
+}
+
+footer .footer_up .product ul li a,
+footer .footer_up .company ul li a,
+footer .footer_up .legal ul li a {
+    line-height: 35px;
+    font-weight: 400;
+    color: #616875;
+    text-decoration: none;
+}
+
+footer .footer_up .social li a {
+    display: inline-flex;
+    justify-content: center;
+    background: #F9CF00;
+    margin: 0 10px;
+    padding: 5px;
+    border-radius: 35px;
+}
+
+footer .footer_down p {
+    color: #616875;
+}
+
+footer .footer_down p a {
+    text-decoration: none;
+}
+
+footer .footer_text {
+    color: #778091;
+    font-size: 14px;
+}
+
+
+/* Footer Section */
+
+
+/* Media Queries For All Sections */
+
+@media (max-width: 570px) {
+    header .main_content .left_content h2 {
+        font-size: 32px;
+        line-height: 48px;
+    }
+    header .main_content .left_content p {
+        padding: 0 5px 0 0;
+    }
+    header .main_content .left_content .btns {
+        margin: 20px 0px;
+    }
+    #knowledge .title h4 {
+        font-size: 20px;
+        line-height: 32px;
+        text-align: center;
+    }
+    #knowledge .content span {
+        font-size: 20px;
+    }
+    #knowledge .content p {
+        padding: 0 25px;
+    }
+    #knowledge .content {
+        padding-bottom: 80px;
+    }
+    .box_photo {
+        margin-top: 50px;
+    }
+    .box p {
+        font-size: 17px;
+    }
+    .photo {
+        margin: 30px 0px;
+    }
+}
+
+@media (max-width: 570px) {
+    #focusOn .focusOn_content .btns a:first-child {
+        margin-right: 0px;
+    }
+}
+
+
+/* Media Queries For All Sections */
+
+
+/* ScrollTop Section */
+
+.button-top {
+    position: fixed;
+    bottom: -200px;
+    right: 30px;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    border-radius: 50%;
+    background: linear-gradient(to right, #e8931e, #e7601e);
+    color: #fff;
+    text-align: center !important;
+    z-index: 99;
+    font-size: 16px;
+    transition: all 0.5s;
+    cursor: pointer;
+}
+
+.button-show {
+    bottom: 20px;
+}
+
+
+/* ScrollTop Section */

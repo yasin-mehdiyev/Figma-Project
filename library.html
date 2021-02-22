@@ -1,0 +1,665 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/library.css">
+    <title>Library</title>
+</head>
+
+<body>
+
+    <div class="wrapper">
+
+        <!-- Mobile and Tablet Version -->
+        <div class="bg-bisque d-lg-none">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 d-flex justify-content-center align-items-center h-100vh">
+                        <p class="fs-30 fs-oblique">Mobil və Tablet versiya dəstəklənmir</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Mobile and Tablet Version -->
+
+        <!-- Header Section -->
+        <header class="d-none d-lg-block pt-2">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-lg-3 d-flex align-items-center">
+                        <a href="index.html" class="d-flex td-none">
+                            <div>
+                                <img src="img/sumnotes_bee.svg" alt="Sumnotes-Bee">
+                            </div>
+                            <span class="d-flex align-items-center fs-20 lh-45 color-26272F fw-600">Sumnotes</span>
+                        </a>
+                    </div>
+                    <div class="col-lg-4 offset-lg-1">
+                        <ul class="d-flex justify-content-center list-reset list-unstyled">
+                            <li class="mr-3">
+                                <a href="#" class="td-none color-202429">Library</a>
+                            </li>
+                            <li class="mr-3">
+                                <a href="#" class="td-none color-9497AA">Pricing Plan</a>
+                            </li>
+                            <li class="mr-3">
+                                <a href="#" class="td-none color-9497AA">Contacts</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-3 offset-lg-1">
+                        <div class="profile d-flex align-items-center justify-content-between">
+                            <div>
+                                <img src="img/icons8-notification-library.svg" alt="Notification" class="w-25 h-20">
+                            </div>
+
+                            <div class="d-flex justify-content-center align-items-center">
+                                <span class="fs-11 color-00000 mr-3">Elizabeth Norton</span>
+                                <div>
+                                    <img src="img/Group-7512-library.svg" alt="Elizabeth Norton" class="w-30 h-40">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <!-- Header Section -->
+
+        <!-- Navbar Section -->
+        <section class="d-none d-lg-block pt-33">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6">
+                        <input type="text" value id="myInput" class="p-12 p-20 p-40 fs-16 w-90p border-BED3F3 borderRadius-60" placeholder="Search for assets, highlights, tags">
+                    </div>
+                    <div class="col-lg-4 offset-lg-2 d-flex justify-content-end">
+
+                        <div class="pos-relative d-inline-block">
+                            <a id="sortBy" class="dropBtn d-flex align-items-center p-8 p-16 td-none color-000000 bgcolor-F8F8FA borderRadius-60 border-BED3F3 mr-3 c-pointer">
+                                Sort By
+                                <div class="ml-2 mn-2">
+                                    <img src="img/Vector.svg" alt="Vector" class="cancel w-15 h-14">
+                                </div>
+                            </a>
+                            <div id="myDropdown" class="dropdown-content pos-absolute t-50 borderRadius-12 overflow-auto bg-ffffff mn-150">
+                                <a href="#" class="dropdown-content-elem color-000000">By Date</a>
+                                <a href="#" class="dropdown-content-elem color-000000">By Tags</a>
+                                <a href="#" class="dropdown-content-elem color-000000">By Annotations</a>
+                                <a href="#" class="dropdown-content-elem color-000000">By Somthing</a>
+                            </div>
+                        </div>
+
+                        <div class="tags">
+                            <a id="tags" class="dropbtn d-lg-inline-flex align-items-center td-none color-000000 p-8 p-16 bgcolor-F8F8FA borderRadius-60 border-BED3F3 c-pointer">
+                                Tags
+                                <div class="ml-2 mn-2"><img src="img/icons8-tags 2.svg" alt="Tags" class="w-16 h-18">
+                                </div>
+                            </a>
+
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Navbar Section -->
+
+        <!-- Frequently Section -->
+        <section class="d-none d-lg-block pt-33">
+            <div class="container">
+
+                <div class="row pb-3">
+                    <div class="col-lg-12">
+                        <small id="changeText" class="text-muted"><span>Frequently Viewed</span></small>
+                    </div>
+                </div>
+
+                <div class="row">
+
+                    <div class="col-lg-3">
+                        <div class="card borderRadius-12 c-pointer">
+                            <div class="d-flex justify-content-center align-items-center h-243">
+                                <form action="#">
+                                    <label>
+                                        <div class="c-pointer">
+                                            <img src="img/Group_click_library.png" alt="#" class="c-pointer">
+                                        </div>
+                                        <input type="file" class="d-none">
+                                    </label>
+                                </form>
+                            </div>
+                            <div class="card-body">
+                                <div id="modalOpen">
+                                    <div class="d-flex align-items-center c-pointer color-000000 bg-FFD504 borderRadius-12 border-BED3F3 p-8">
+                                        <div class="ml-7p">
+                                            <img src="img/uploader_file.png" alt="File Uploader">
+                                        </div>
+                                        <div class="ml-20p">
+                                            <p class="import">Upload</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="mt-7">
+                                    <form action="#">
+                                        <label class="w-100p">
+                                            <div class="d-flex align-items-center c-pointer color-000000 bg-ECF0F6 borderRadius-12 border-BED3F3 p-8">
+                                                <div class="ml-7p">
+                                                    <img src="img/ipad_file.png" alt="Ipad">
+                                                </div>
+                                                <div class="ml-20p">
+                                                    <p class="import">Import</p>
+                                                </div>
+                                            </div>
+                                            <input type="file" class="d-none">
+                                        </label>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3">
+                        <div class="card borderRadius-12 c-pointer">
+                            <div class="pos-relative dropdown">
+                                <img class="card-img-top" src="img/walpaper.jpg" alt="Walpaper">
+                                <a href="#" id="toggleOneIcon" class="toggle-contain pos-absolute t-12 r-12 c-pointer border-E7E7EF borderRadius-40 bg-ffffff box-shadow py-5 px-2">
+                                    <img src="img/selected-icon-library.png" alt="Icon" class="toggle-one-icon">
+                                </a>
+                                <div id="myDropdownOneToggle" class="dropdown-content dropdown-delete pos-absolute t-55 r-12 borderRadius-12 overflow-auto bg-ffffff mn-120">
+                                    <a href="#" class="dropdown-content-toggle color-000000">Dublicate</a>
+                                    <a href="#" class="dropdown-content-toggle color-000000">Share</a>
+                                    <a href="#" class="dropdown-content-toggle color-FF4034">Delete</a>
+                                </div>
+                                <a href="#" class="pdf-icon pos-absolute t-12 l-12 c-pointer border-E7E7EF borderRadius-5 bg-ffffff box-shadow py-5 px-2 opacity-0">
+                                    <img src="img/pdf-library.png" alt="Pdf">
+                                </a>
+                            </div>
+                            <div class="card-body">
+                                <p class="card-text"><small class="text-muted">15 sep 2020</small></p>
+                                <h6 class="card-title">Important cancer research</h6>
+                                <p class="card-text d-flex justify-content-space-between mw-85">
+                                    <small class="text-muted">PDF file</small>
+                                    <small class="d-flex align-items-center"><img src="img/Ellipse.png"
+                                            alt="Ellipse"></small>
+                                    <small class="color-FF9D02"><span>14 annotations</span></small>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3">
+                        <div class="card borderRadius-12 c-pointer">
+                            <div class="pos-relative dropdown">
+                                <img class="card-img-top" src="img/walpaper.jpg" alt="Walpaper">
+                                <a href="#" id="toggleTwoIcon" class="toggle-contain pos-absolute t-12 r-12 c-pointer border-E7E7EF borderRadius-40 bg-ffffff box-shadow py-5 px-2">
+                                    <img src="img/selected-icon-library.png" alt="Icon" class="toggle-two-icon">
+                                </a>
+                                <div id="myDropdownTwoToggle" class="dropdown-content dropdown-delete pos-absolute t-55 r-12 borderRadius-12 overflow-auto bg-ffffff mn-120">
+                                    <a href="#" class="dropdown-content-toggle color-000000">Dublicate</a>
+                                    <a href="#" class="dropdown-content-toggle color-000000">Share</a>
+                                    <a href="#" class="dropdown-content-toggle color-FF4034">Delete</a>
+                                </div>
+                                <a href="#" class="pdf-icon pos-absolute t-12 l-12 c-pointer border-E7E7EF borderRadius-5 bg-ffffff box-shadow py-5 px-2 opacity-0">
+                                    <img src="img/pdf-library.png" alt="Pdf">
+                                </a>
+                            </div>
+                            <div class="card-body">
+                                <p class="card-text"><small class="text-muted">15 sep 2020</small></p>
+                                <h6 class="card-title">Important cancer research</h6>
+                                <p class="card-text d-flex justify-content-space-between mw-85">
+                                    <small class="text-muted">PDF file</small>
+                                    <small class="d-flex align-items-center"><img src="img/Ellipse.png"
+                                            alt="Ellipse"></small>
+                                    <small class="color-FF9D02"><span>14 annotations</span></small>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3">
+                        <div class="card borderRadius-12 c-pointer">
+                            <div class="pos-relative dropdown">
+                                <img class="card-img-top" src="img/walpaper.jpg" alt="Walpaper">
+                                <a href="#" id="toggleThreeIcon" class="toggle-contain pos-absolute t-12 r-12 c-pointer border-E7E7EF borderRadius-40 bg-ffffff box-shadow py-5 px-2">
+                                    <img src="img/selected-icon-library.png" alt="Icon" class="toggle-three-icon">
+                                </a>
+                                <div id="myDropdownThreeToggle" class="dropdown-content dropdown-delete pos-absolute t-55 r-12 borderRadius-12 overflow-auto bg-ffffff mn-120">
+                                    <a href="#" class="dropdown-content-toggle color-000000">Dublicate</a>
+                                    <a href="#" class="dropdown-content-toggle color-000000">Share</a>
+                                    <a href="#" class="dropdown-content-toggle color-FF4034">Delete</a>
+                                </div>
+                                <a href="#" class="pdf-icon pos-absolute t-12 l-12 c-pointer border-E7E7EF borderRadius-5 bg-ffffff box-shadow py-5 px-2 opacity-0">
+                                    <img src="img/pdf-library.png" alt="Pdf">
+                                </a>
+                            </div>
+                            <div class="card-body">
+                                <p class="card-text"><small class="text-muted">15 sep 2020</small></p>
+                                <h6 class="card-title">Important cancer research</h6>
+                                <p class="card-text d-flex justify-content-space-between mw-85">
+                                    <small class="text-muted">PDF file</small>
+                                    <small class="d-flex align-items-center"><img src="img/Ellipse.png"
+                                            alt="Ellipse"></small>
+                                    <small class="color-FF9D02"><span>14 annotations</span></small>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </section>
+        <!-- Frequently Section -->
+
+        <!-- Files Section -->
+        <section class="d-none d-lg-block pt-33">
+            <div class="container">
+                <div class="row pb-3">
+                    <div class="col-lg-12">
+                        <small class="text-muted"><span>All Files</span></small>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-3">
+                        <div class="card borderRadius-12 c-pointer">
+                            <div class="pos-relative dropdown">
+                                <img class="card-img-top" src="img/walpaper.jpg" alt="Walpaper">
+                                <a href="#" id="toggleFourIcon" class="toggle-contain pos-absolute t-12 r-12 c-pointer border-E7E7EF borderRadius-40 bg-ffffff box-shadow py-5 px-2">
+                                    <img src="img/selected-icon-library.png" alt="Icon" class="toggle-four-icon">
+                                </a>
+                                <div id="myDropdownFourToggle" class="dropdown-content dropdown-delete pos-absolute t-55 r-12 borderRadius-12 overflow-auto bg-ffffff mn-120">
+                                    <a href="#" class="dropdown-content-toggle color-000000">Dublicate</a>
+                                    <a href="#" class="dropdown-content-toggle color-000000">Share</a>
+                                    <a href="#" class="dropdown-content-toggle color-FF4034">Delete</a>
+                                </div>
+                                <a href="#" class="pdf-icon pos-absolute t-12 l-12 c-pointer border-E7E7EF borderRadius-5 bg-ffffff box-shadow py-5 px-2 opacity-0">
+                                    <img src="img/pdf-library.png" alt="Pdf">
+                                </a>
+                            </div>
+                            <div class="card-body">
+                                <p class="card-text"><small class="text-muted">15 sep 2020</small></p>
+                                <h6 class="card-title">Important cancer research</h6>
+                                <p class="card-text d-flex justify-content-space-between mw-85">
+                                    <small class="text-muted">PDF file</small>
+                                    <small class="d-flex align-items-center"><img src="img/Ellipse.png"
+                                            alt="Ellipse"></small>
+                                    <small class="color-FF9D02"><span>14 annotations</span></small>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3">
+                        <div class="card borderRadius-12 c-pointer">
+                            <div class="pos-relative dropdown">
+                                <img class="card-img-top" src="img/walpaper.jpg" alt="Walpaper">
+                                <a href="#" id="toggleFiveIcon" class="toggle-contain pos-absolute t-12 r-12 c-pointer border-E7E7EF borderRadius-40 bg-ffffff box-shadow py-5 px-2">
+                                    <img src="img/selected-icon-library.png" alt="Icon" class="toggle-five-icon">
+                                </a>
+                                <div id="myDropdownFiveToggle" class="dropdown-content dropdown-delete pos-absolute t-55 r-12 borderRadius-12 overflow-auto bg-ffffff mn-120">
+                                    <a href="#" class="dropdown-content-toggle color-000000">Dublicate</a>
+                                    <a href="#" class="dropdown-content-toggle color-000000">Share</a>
+                                    <a href="#" class="dropdown-content-toggle color-FF4034">Delete</a>
+                                </div>
+                                <a href="#" class="pdf-icon pos-absolute t-12 l-12 c-pointer border-E7E7EF borderRadius-5 bg-ffffff box-shadow py-5 px-2 opacity-0">
+                                    <img src="img/pdf-library.png" alt="Pdf">
+                                </a>
+                            </div>
+                            <div class="card-body">
+                                <p class="card-text"><small class="text-muted">15 sep 2020</small></p>
+                                <h6 class="card-title">Important cancer research</h6>
+                                <p class="card-text d-flex justify-content-space-between mw-85">
+                                    <small class="text-muted">PDF file</small>
+                                    <small class="d-flex align-items-center"><img src="img/Ellipse.png"
+                                            alt="Ellipse"></small>
+                                    <small class="color-FF9D02"><span>14 annotations</span></small>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3">
+                        <div class="card borderRadius-12 c-pointer">
+                            <div class="pos-relative dropdown">
+                                <img class="card-img-top" src="img/walpaper.jpg" alt="Walpaper">
+                                <a href="#" id="toggleSixIcon" class="toggle-contain pos-absolute t-12 r-12 c-pointer border-E7E7EF borderRadius-40 bg-ffffff box-shadow py-5 px-2">
+                                    <img src="img/selected-icon-library.png" alt="Icon" class="toggle-six-icon">
+                                </a>
+                                <div id="myDropdownSixToggle" class="dropdown-content dropdown-delete pos-absolute t-55 r-12 borderRadius-12 overflow-auto bg-ffffff mn-120">
+                                    <a href="#" class="dropdown-content-toggle color-000000">Dublicate</a>
+                                    <a href="#" class="dropdown-content-toggle color-000000">Share</a>
+                                    <a href="#" class="dropdown-content-toggle color-FF4034">Delete</a>
+                                </div>
+                                <a href="#" class="pdf-icon pos-absolute t-12 l-12 c-pointer border-E7E7EF borderRadius-5 bg-ffffff box-shadow py-5 px-2 opacity-0">
+                                    <img src="img/pdf-library.png" alt="Pdf">
+                                </a>
+                            </div>
+                            <div class="card-body">
+                                <p class="card-text"><small class="text-muted">15 sep 2020</small></p>
+                                <h6 class="card-title">Important cancer research</h6>
+                                <p class="card-text d-flex justify-content-space-between mw-85">
+                                    <small class="text-muted">PDF file</small>
+                                    <small class="d-flex align-items-center"><img src="img/Ellipse.png"
+                                            alt="Ellipse"></small>
+                                    <small class="color-FF9D02"><span>14 annotations</span></small>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3">
+                        <div class="card borderRadius-12 c-pointer">
+                            <div class="pos-relative dropdown">
+                                <img class="card-img-top" src="img/walpaper.jpg" alt="Walpaper">
+                                <a href="#" id="toggleSevenIcon" class="toggle-contain pos-absolute t-12 r-12 c-pointer border-E7E7EF borderRadius-40 bg-ffffff box-shadow py-5 px-2">
+                                    <img src="img/selected-icon-library.png" alt="Icon" class="toggle-seven-icon">
+                                </a>
+                                <div id="myDropdownSevenToggle" class="dropdown-content dropdown-delete pos-absolute t-55 r-12 borderRadius-12 overflow-auto bg-ffffff mn-120">
+                                    <a href="#" class="dropdown-content-toggle color-000000">Dublicate</a>
+                                    <a href="#" class="dropdown-content-toggle color-000000">Share</a>
+                                    <a href="#" class="dropdown-content-toggle color-FF4034">Delete</a>
+                                </div>
+                                <a href="#" class="pdf-icon pos-absolute t-12 l-12 c-pointer border-E7E7EF borderRadius-5 bg-ffffff box-shadow py-5 px-2 opacity-0">
+                                    <img src="img/pdf-library.png" alt="Pdf">
+                                </a>
+                            </div>
+                            <div class="card-body">
+                                <p class="card-text"><small class="text-muted">15 sep 2020</small></p>
+                                <h6 class="card-title">Important cancer research</h6>
+                                <p class="card-text d-flex justify-content-space-between mw-85">
+                                    <small class="text-muted">PDF file</small>
+                                    <small class="d-flex align-items-center"><img src="img/Ellipse.png"
+                                            alt="Ellipse"></small>
+                                    <small class="color-FF9D02"><span>14 annotations</span></small>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Files Section -->
+
+        <!-- Footer Section -->
+        <footer class="d-none d-lg-block mt-33 bg-F9FAFD p-lr0 p-4530">
+            <div class="container">
+                <div class="footer_up">
+                    <div class="row">
+
+                        <div class="col-lg-3">
+                            <a class="d-flex td-none" href="#">
+                                <figure>
+                                    <img src="img/sumnotes_bee.svg" alt="Sumnotes Bee" class="img-fluid">
+                                </figure>
+
+                                <span class="fs-20 fw-600 lh-40 color-000000">Sumnotes</span>
+                            </a>
+                            <div class="text">
+                                <p class="lh-24 color-9497AA fs-15">We summarize annotations from PDF files and summarize while you focus on what matters.
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-2 d-flex justify-content-center">
+                            <div class="mt-5">
+                                <span class="color-000000 fs-15 lh-30 fw-600 text-upper">Products</span>
+                                <ul class="list-unstyled color-616875 lh-28">
+                                    <li>
+                                        <a href="#" class="color-616875 td-none fw-400 lh-35">
+                                            Pricing
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-lg-2 d-flex justify-content-center">
+                            <div class="mt-5">
+                                <span class="color-000000 fs-15 lh-30 fw-600 text-upper">Company</span>
+                                <ul class="list-unstyled color-616875 lh-28">
+                                    <li>
+                                        <a href="#" class="color-616875 td-none fw-400 lh-35">
+                                            Blog
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#" class="color-616875 td-none fw-400 lh-35">
+                                            Contact Us
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-2 d-flex justify-content-center">
+                            <div class="mt-5">
+                                <span class="color-000000 fs-15 lh-30 fw-600 text-upper">Legal</span>
+                                <ul class="list-unstyled color-616875 lh-28">
+                                    <li>
+                                        <a href="#" class="color-616875 td-none fw-400 lh-35">
+                                            Terms of Service
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#" class="color-616875 td-none fw-400 lh-35">
+                                            Privacy Policy
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#" class="color-616875 td-none fw-400 lh-35">
+                                            FAQ
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 d-none d-lg-flex justify-content-lg-end">
+                            <ul class="list-unstyled d-flex">
+                                <li>
+                                    <a href="#" class="d-inline-flex justify-content-center bg-F9CF00 p-5 m-010 borderRadius-35">
+                                        <img src="img/icons_instagram.png" alt="instagram">
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#" class="d-inline-flex justify-content-center bg-F9CF00 p-5 m-010 borderRadius-35">
+                                        <img src="img/icons_twitter.png" alt="twitter">
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+
+                        <div class="col-lg-3 d-flex align-items-center">
+                            <div class="footer_down">
+                                <p class="color-616875">Send us an email at <br>
+                                    <a href="#" class="td-none">info@sumnotes.com</a>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-lg-9 d-flex justify-content-lg-end justify-content-center align-items-lg-end pb-2 pt-2 pb-lg-0 pt-lg-0">
+                            <span class="color-778091 fs-15">© 2020 Sumnotes Inc • Copyrights are reserved</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!-- Footer Section -->
+
+
+        <!-- Modal for Tags Section -->
+        <div id="myPopup">
+            <div class="popup-content">
+                <div class="d-flex align-items-center justify-content-between">
+                    <h5 class="mt-7">My Tags</h5>
+                    <span id="closed" class="popup-close">&times;</span>
+                </div>
+
+                <hr class="bg-E0E0E9">
+
+                <div class="popup-body">
+                    <a id="tags" class="d-lg-inline-flex align-items-center mr-2 td-none color-000000 py-5 px-20 bgcolor-F8F8FA borderRadius-60 border-BED3F3">
+                        Science
+                        <div class="ml-2 mn-2"><img src="img/icons8-tags 2.svg" alt="Tags" class="w-16 h-18"></div>
+                    </a>
+                    <a id="tags" class="d-lg-inline-flex align-items-center mr-2 td-none color-000000 py-5 px-20 bgcolor-F8F8FA borderRadius-60 border-BED3F3">
+                        Old Movies
+                        <div class="ml-2 mn-2"><img src="img/icons8-tags 2.svg" alt="Tags" class="w-16 h-18"></div>
+                    </a>
+                    <a id="tags" class="d-lg-inline-flex align-items-center mr-2 td-none color-000000 py-5 px-20 bgcolor-F8F8FA borderRadius-60 border-BED3F3">
+                        Architecture
+                        <div class="ml-2 mn-2"><img src="img/icons8-tags 2.svg" alt="Tags" class="w-16 h-18"></div>
+                    </a>
+                    <a id="tags" class="d-lg-inline-flex align-items-center mr-2 td-none color-000000 py-5 px-20 bgcolor-F8F8FA borderRadius-60 border-BED3F3">
+                        Web Design
+                        <div class="ml-2 mn-2"><img src="img/icons8-tags 2.svg" alt="Tags" class="w-16 h-18"></div>
+                    </a>
+                    <a id="tags" class="d-lg-inline-flex align-items-center mr-2 td-none color-000000 py-5 px-20 bgcolor-F8F8FA borderRadius-60 border-BED3F3">
+                        Chemistry
+                        <div class="ml-2 mn-2"><img src="img/icons8-tags 2.svg" alt="Tags" class="w-16 h-18"></div>
+                    </a>
+                    <a id="tags" class="d-lg-inline-flex align-items-center mr-2 td-none color-000000 py-5 px-20 bgcolor-F8F8FA borderRadius-60 border-BED3F3">
+                        Spider-Man
+                        <div class="ml-2 mn-2"><img src="img/icons8-tags 2.svg" alt="Tags" class="w-16 h-18"></div>
+                    </a>
+                    <a id="tags" class="d-lg-inline-flex align-items-center mr-2 td-none color-000000 py-5 px-20 bgcolor-F8F8FA borderRadius-60 border-BED3F3">
+                        Science
+                        <div class="ml-2 mn-2"><img src="img/icons8-tags 2.svg" alt="Tags" class="w-16 h-18"></div>
+                    </a>
+                    <a id="tags" class="d-lg-inline-flex align-items-center mr-2 td-none color-000000 py-5 px-20 bgcolor-F8F8FA borderRadius-60 border-BED3F3">
+                        Old Movies
+                        <div class="ml-2 mn-2"><img src="img/icons8-tags 2.svg" alt="Tags" class="w-16 h-18"></div>
+                    </a>
+                    <a id="tags" class="d-lg-inline-flex align-items-center mr-2 td-none color-000000 py-5 px-20 bgcolor-F8F8FA borderRadius-60 border-BED3F3">
+                        Architecture
+                        <div class="ml-2 mn-2"><img src="img/icons8-tags 2.svg" alt="Tags" class="w-16 h-18"></div>
+                    </a>
+                    <a id="tags" class="d-lg-inline-flex align-items-center mr-2 td-none color-000000 py-5 px-20 bgcolor-F8F8FA borderRadius-60 border-BED3F3">
+                        Spider-Man
+                        <div class="ml-2 mn-2"><img src="img/icons8-tags 2.svg" alt="Tags" class="w-16 h-18"></div>
+                    </a>
+                    <a id="tags" class="d-lg-inline-flex align-items-center mr-2 td-none color-000000 py-5 px-20 bgcolor-F8F8FA borderRadius-60 border-BED3F3">
+                        Organic Chemistry
+                        <div class="ml-2 mn-2"><img src="img/icons8-tags 2.svg" alt="Tags" class="w-16 h-18"></div>
+                    </a>
+                    <a id="tags" class="d-lg-inline-flex align-items-center mr-2 td-none color-000000 py-5 px-20 bgcolor-F8F8FA borderRadius-60 border-BED3F3">
+                        Interface
+                        <div class="ml-2 mn-2"><img src="img/icons8-tags 2.svg" alt="Tags" class="w-16 h-18"></div>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <!-- Modal for Tags Section -->
+
+        <!-- Modal for File Upload(Frequently Section) -->
+        <div id="uploadPopup">
+            <div class="uploader-content">
+                <div class="d-flex align-items-center justify-content-between">
+                    <h5 class="mt-7">File Uploader</h5>
+                    <span id="closed" class="popup-close">&times;</span>
+                </div>
+
+                <hr class="bg-E0E0E9">
+
+                <div class="uploader-body">
+                    <div class="row">
+                        <div class="col-lg-3">
+                            <div class="popup-box d-flex justify-content-center align-items-center bg-f9f9f9 borderRadius-12 c-pointer">
+                                <div>
+                                    <form action="#" class="p-10 d-flex justify-content-center">
+                                        <label>
+                                            <div class="c-pointer">
+                                                <img src="img/laptop_library.png" alt="Laptop" class="c-pointer">
+                                            </div>
+                                            <input type="file" class="d-none">
+                                        </label>
+                                    </form>
+                                    <h6 class="pb-3 color-202429 fs-13">From Computer</h6>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3">
+                            <div class="popup-box d-flex justify-content-center align-items-center bg-f9f9f9 borderRadius-12 c-pointer">
+                                <div>
+                                    <div class="c-pointer p-10 d-flex justify-content-center">
+                                        <img src="img/drive_library.png" alt="Drive" class="c-pointer">
+                                    </div>
+
+                                    <h6 class="pb-3 color-202429 fs-13">Google Drive</h6>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3">
+                            <div class="popup-box d-flex justify-content-center align-items-center bg-f9f9f9 borderRadius-12 c-pointer">
+                                <div>
+                                    <div class="c-pointer p-10 d-flex justify-content-center">
+                                        <img src="img/dropbox_library.png" alt="Dropbox" class="c-pointer">
+                                    </div>
+
+                                    <h6 class="pb-3 color-202429 fs-13">Dropbox</h6>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3">
+                            <div class="popup-box d-flex justify-content-center align-items-center bg-f9f9f9 borderRadius-12 c-pointer">
+                                <div>
+                                    <div class="c-pointer pbt-16 d-flex justify-content-center">
+                                        <img src="img/styleColor_library.png" alt="Cloud" class="c-pointer">
+                                    </div>
+
+                                    <h6 class="pb-3 color-202429 fs-13">One Drive</h6>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <hr class="bg-E0E0E9">
+
+                <div class="sync-vendor">
+                    <div class="row mb-8">
+                        <div class="col-lg-12">
+                            <h6 class="color-202429">Sync from a vendor</h6>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-2">
+                            <div class="popup-box d-flex justify-content-center pbt-16 bg-f9f9f9 borderRadius-12 c-pointer mb-8">
+                                <img src="img/books_library.png" alt="Books">
+                            </div>
+                            <p class="text-center color-A1AAB9 fs-11">Last seen <br> 3 hours ago</p>
+                        </div>
+                        <div class="col-lg-2">
+                            <div class="popup-box d-flex justify-content-center pbt-21 bg-f9f9f9 borderRadius-12 c-pointer mb-8">
+                                <img src="img/kindle.png" alt="Kindle">
+                            </div>
+                            <p class="text-center color-A1AAB9 fs-11">Last seen <br> 2 hours ago</p>
+                        </div>
+                        <div class="col-lg-2">
+                            <div class="popup-box d-flex justify-content-center pbt-16 bg-f9f9f9 borderRadius-12 c-pointer mb-8">
+                                <img src="img/Italic_Library.png" alt="Italic">
+                            </div>
+                        </div>
+                        <div class="col-lg-2">
+                            <div class="popup-box d-flex justify-content-center pbt-22 bg-f9f9f9 borderRadius-12 c-pointer mb-8">
+                                <img src="img/Kobo_library.png" alt="Kobo">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Modal for File Upload(Frequently Section) -->
+
+    </div>
+
+
+
+    <!-- Js and Jquery Links -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script src="js/library.js"></script>
+    <!-- Js and Jquery Links -->
+
+</body>
+
+</html>
