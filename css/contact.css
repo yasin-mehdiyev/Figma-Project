@@ -1,0 +1,31 @@
+.bg-colorGradient {
+    background: radial-gradient(118.49% 193.74% at 108.77% -23.6%, #6356FB 0%, #62B4FF 100%), #F0F4FA;
+}
+
+.hv-55 {
+    height: 100vh;
+}
+
+.fw-600 {
+    font-weight: 600;
+}
+
+.fs-30 {
+    font-size: 30px;
+}
+
+.lh-56 {
+    line-height: 56px;
+}
+
+.lh-24 {
+    line-height: 24px;
+}
+
+.letter-space-001 {
+    letter-spacing: 0.01em;
+}
+
+.color-FFFFFF {
+    color: #FFFFFF;
+}
