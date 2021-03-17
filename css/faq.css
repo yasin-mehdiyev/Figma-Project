@@ -1,0 +1,220 @@
+/* Colors */
+
+.color-ffffff {
+    color: #ffffff!important;
+}
+
+
+/* Colors */
+
+
+/* ------------------------------------------------------------------- */
+
+
+/* Background-Color and Gradient */
+
+.bg-gradient {
+    background: radial-gradient(118.49% 193.74% at 108.77% -23.6%, #3787FF 0%, #6562FF 100%);
+}
+
+.bg-fff {
+    background-color: #fff;
+}
+
+.bg-rgba {
+    background: rgba(255, 255, 255, 0.16);
+}
+
+
+/* Background-Color and Gradient */
+
+
+/* -------------------------------------------------------------------- */
+
+
+/* Widths */
+
+.w-20 {
+    width: 20px;
+}
+
+
+/* Widths */
+
+
+/* -------------------------------------------------------------------- */
+
+
+/* Heights */
+
+.h-18 {
+    height: 18px;
+}
+
+
+/* Heights */
+
+
+/* -------------------------------------------------------------------- */
+
+
+/* Paddings */
+
+.p-105 {
+    padding-top: 105px;
+}
+
+.p-96 {
+    padding-bottom: 96px;
+}
+
+.pt-10 {
+    padding-top: 10px;
+}
+
+.pb-12 {
+    padding-bottom: 12px;
+}
+
+.pl-50 {
+    padding-left: 50px;
+}
+
+
+/* Paddings */
+
+
+/* ---------------------------------------------------------------------- */
+
+
+/* Fonts */
+
+.fs-18 {
+    font-size: 18px;
+}
+
+.fw-600 {
+    font-weight: 600;
+}
+
+
+/* Fonts */
+
+
+/* ---------------------------------------------------------------------- */
+
+
+/* Opacity */
+
+.opacity-02 {
+    opacity: 0.2;
+}
+
+.opacity-06 {
+    opacity: 0.6;
+}
+
+.opacity-08 {
+    opacity: 0.8;
+}
+
+
+/* Opacity */
+
+
+/* --------------------------------------------------------------------- */
+
+
+/* Line Heights */
+
+.lh-24 {
+    line-height: 24px;
+}
+
+.lh-48 {
+    line-height: 48px;
+}
+
+
+/* Line Heights */
+
+
+/* --------------------------------------------------------------------- */
+
+
+/* Border and Border-radius */
+
+.border-F9FAFD {
+    border: 1px solid #F9FAFD;
+}
+
+.border-radius-12 {
+    border-radius: 12px;
+}
+
+
+/* Border and Border-radius */
+
+
+/* --------------------------------------------------------------------- */
+
+
+/* Outline */
+
+.outline-none {
+    outline: none!important;
+}
+
+
+/* Outline */
+
+
+/* -------------------------------------------------------------------- */
+
+
+/* Customer Search Icon and Custom Change Placeholder */
+
+#myInputFaq {
+    background-image: url('../img/search-icon-faq.png');
+    background-position: 10px 12px;
+    background-repeat: no-repeat;
+}
+
+#myInputFaq::placeholder {
+    color: #ffffff;
+    opacity: 0.64;
+}
+
+
+/* Customer Search Icon and Custom Change Placeholder */
+
+
+/* -------------------------------------------------------------------- */
+
+
+/* Media Queries */
+
+@media only screen and (max-width: 767px) {
+    .contact-text {
+        font-size: 12px;
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width: 991px) {
+    .contact-text {
+        font-size: 12px;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    #myInputFaq {
+        margin-top: 20px;
+    }
+}
+
+
+/* Media Queries */
+
+
+/* -------------------------------------------------------------------- */
