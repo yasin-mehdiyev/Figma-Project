@@ -1,31 +1,216 @@
-.bg-colorGradient {
-    background: radial-gradient(118.49% 193.74% at 108.77% -23.6%, #6356FB 0%, #62B4FF 100%), #F0F4FA;
-}
-
-.hv-55 {
-    height: 100vh;
-}
-
-.fw-600 {
-    font-weight: 600;
-}
-
-.fs-30 {
-    font-size: 30px;
-}
-
-.lh-56 {
-    line-height: 56px;
-}
-
-.lh-24 {
-    line-height: 24px;
-}
-
-.letter-space-001 {
-    letter-spacing: 0.01em;
-}
-
-.color-FFFFFF {
-    color: #FFFFFF;
-}
+ /* Change Custom Scroll Bar */
+ 
+ ::-webkit-scrollbar-thumb,
+ ::-webkit-scrollbar-track {
+     border-radius: 10px;
+     box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+ }
+ 
+ ::-webkit-scrollbar {
+     width: 8px;
+ }
+ 
+ ::-webkit-scrollbar-thumb {
+     background-color: #5c8065;
+ }
+ 
+ ::-webkit-scrollbar-track {
+     background-color: white;
+ }
+ /* Change Custom Scroll Bar */
+ /* --------------------------------- */
+ /* Heights and Widths */
+ 
+ .hv-55 {
+     height: 100vh;
+ }
+ 
+ .w-20 {
+     width: 20px;
+ }
+ 
+ .h-20 {
+     height: 20px;
+ }
+ 
+ .w-75 {
+     width: 75%;
+ }
+ /* Heights and Widths */
+ /* --------------------------------- */
+ /* Line Heights */
+ 
+ .lh-24 {
+     line-height: 24px;
+ }
+ 
+ .lh-28 {
+     line-height: 28px;
+ }
+ 
+ .lh-40 {
+     line-height: 40px;
+ }
+ 
+ .lh-56 {
+     line-height: 56px;
+ }
+ /* Line Heights */
+ /* --------------------------------- */
+ /* Margins */
+ 
+ .m-3052 {
+     margin-top: 30px;
+     margin-bottom: 52px;
+ }
+ 
+ .mb-0 {
+     margin-bottom: 0px;
+ }
+ 
+ .mb-16 {
+     margin-bottom: 16px;
+ }
+ 
+ .mb-38 {
+     margin-bottom: 38px;
+ }
+ 
+ .mb-40 {
+     margin-bottom: 40px;
+ }
+ /* Margins */
+ /* --------------------------------- */
+ /* Paddings */
+ 
+ .p-10 {
+     padding-top: 10px;
+     padding-bottom: 10px;
+ }
+ 
+ .py-5 {
+     padding-top: 5%!important;
+     padding-bottom: 5%!important;
+ }
+ /* Paddings */
+ /* --------------------------------- */
+ /* Fonts */
+ 
+ .fw-500 {
+     font-weight: 500;
+ }
+ 
+ .fw-600 {
+     font-weight: 600;
+ }
+ 
+ .fs-14 {
+     font-size: 14px;
+ }
+ 
+ .fs-20 {
+     font-size: 20px;
+ }
+ 
+ .fs-30 {
+     font-size: 30px;
+ }
+ /* Fonts */
+ /* --------------------------------- */
+ /* Colors */
+ 
+ .color-FFFFFF {
+     color: #FFFFFF;
+ }
+ 
+ .color-26272F {
+     color: #26272F;
+ }
+ 
+ .color-000000 {
+     color: #000000;
+ }
+ 
+ .color-959FB0 {
+     color: #959FB0;
+ }
+ /* Colors */
+ /* --------------------------------- */
+ /* Gradient */
+ 
+ .bg-colorGradient {
+     background: radial-gradient(118.49% 193.74% at 108.77% -23.6%, #6356FB 0%, #62B4FF 100%), #F0F4FA;
+ }
+ /* Gradient */
+ /* --------------------------------- */
+ /* Text Decoration  */
+ 
+ .td-none {
+     text-decoration: none;
+ }
+ /* Text Decoration  */
+ /* --------------------------------- */
+ /* Letter Space */
+ 
+ .letter-space-001 {
+     letter-spacing: 0.01em;
+ }
+ /* Letter Space */
+ /* --------------------------------- */
+ /* Cursor Pointer */
+ 
+ .c-pointer {
+     cursor: pointer;
+ }
+ /* Cursor Pointer */
+ /* --------------------------------- */
+ /* Display */
+ 
+ .d-inline-block {
+     display: inline-block;
+ }
+ /* Display */
+ /* --------------------------------- */
+ /* Border */
+ 
+ .border-BED3F3 {
+     border: 1px solid #BED3F3;
+ }
+ /* Border */
+ /* --------------------------------- */
+ /* Custom Button and Input CSS */
+ 
+ .custom-input,
+ .custom-btn {
+     width: 80%;
+     border: none;
+     outline: none!important;
+     border-radius: 16px;
+     padding: 14px 24px;
+     outline-color: antiquewhite;
+ }
+ 
+ .custom-input {
+     background: #F5F7FB;
+ }
+ 
+ .custom-btn {
+     background: #F9CF00;
+     color: #000000;
+ }
+ /* Custom Button and Input CSS */
+ /* ---------------------------------- */
+ /* Media Query */
+ 
+ @media only screen and (max-width: 359px) {
+     .footer-text {
+         font-size: 13px;
+     }
+ }
+ 
+ @media only screen and (max-width: 415px) {
+     .feedback-text {
+         font-size: 13px;
+     }
+ }
+ /* Media Query */
