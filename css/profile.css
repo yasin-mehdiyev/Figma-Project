@@ -1,0 +1,361 @@
+/* Background-Color */
+
+.bg-EFEFF7 {
+    background-color: #EFEFF7;
+}
+
+.bg-color-fff {
+    background-color: #fff!important;
+}
+
+.bg-color-FFD504 {
+    background-color: #FFD504;
+}
+
+.bg-color-ECF0F6 {
+    background-color: #ECF0F6;
+}
+
+
+/* Background-Color */
+
+
+/* ------------------------------------------------------------------------ */
+
+
+/* Color */
+
+.color-000000 {
+    color: #000000;
+}
+
+.color-202429 {
+    color: #202429;
+}
+
+.color-ffffff {
+    color: #ffffff;
+}
+
+.color-bfbfbf {
+    color: #bfbfbf;
+}
+
+.color-616875 {
+    color: #616875;
+}
+
+
+/* Color */
+
+
+/* ------------------------------------------------------------------------ */
+
+
+/* Font-Size */
+
+.fs-14 {
+    font-size: 14px;
+}
+
+.fs-16 {
+    font-size: 16px;
+}
+
+.fs-18 {
+    font-size: 18px;
+}
+
+.fs-20 {
+    font-size: 20px;
+}
+
+.fs-28 {
+    font-size: 28px;
+}
+
+
+/* Font-Size */
+
+
+/* ------------------------------------------------------------------------ */
+
+
+/* Font-Weight */
+
+.fw-500 {
+    font-weight: 500;
+}
+
+.fw-600 {
+    font-weight: 600;
+}
+
+.fw-700 {
+    font-weight: 700;
+}
+
+
+/* Font-Weight */
+
+
+/* ------------------------------------------------------------------------ */
+
+
+/* Line-Height */
+
+.lh-24 {
+    line-height: 24px;
+}
+
+.lh-32 {
+    line-height: 32px;
+}
+
+
+/* Line-Height */
+
+
+/* ------------------------------------------------------------------------ */
+
+
+/* Heights */
+
+.h-24 {
+    height: 24px;
+}
+
+.h-40 {
+    height: 40px;
+}
+
+.h-97 {
+    height: 97%!important;
+}
+
+
+/* Heights */
+
+
+/* ------------------------------------------------------------------------ */
+
+
+/* Widths */
+
+.w-10 {
+    width: 10%;
+}
+
+.w-24 {
+    width: 24px;
+}
+
+.w-40 {
+    width: 40px;
+}
+
+.w-80 {
+    width: 80%;
+}
+
+
+/* Widths */
+
+
+/* ------------------------------------------------------------------------ */
+
+
+/* Margins */
+
+.mt-15 {
+    margin-top: 15px!important;
+}
+
+.mt-32 {
+    margin-top: 32px;
+}
+
+.mb-0 {
+    margin-bottom: 0px!important;
+}
+
+.mb-22 {
+    margin-bottom: 22px;
+}
+
+.mb-30 {
+    margin-bottom: 30px;
+}
+
+
+/* Margins */
+
+
+/* ------------------------------------------------------------------------ */
+
+
+/* Paddings */
+
+.p-1520 {
+    padding: 15px 20px;
+}
+
+.pl-5 {
+    padding-left: 5px;
+}
+
+.pl-15 {
+    padding-left: 15px;
+}
+
+.pt-0 {
+    padding-top: 0px!important;
+}
+
+.pt-24 {
+    padding-top: 24px;
+}
+
+.pb-23 {
+    padding-bottom: 23px;
+}
+
+.pb-24 {
+    padding-bottom: 24px;
+}
+
+.pb-75 {
+    padding-bottom: 75px;
+}
+
+.py-7 {
+    padding-top: 7px!important;
+    padding-bottom: 7px!important;
+}
+
+.py-13 {
+    padding-top: 13px;
+    padding-bottom: 13px;
+}
+
+
+/* Paddings */
+
+
+/* ------------------------------------------------------------------------ */
+
+
+/* Borders */
+
+.border-dashed-BED3F3 {
+    border: 1px dashed #BED3F3;
+}
+
+.border-top-none {
+    border-top: none;
+}
+
+.border-bottom-none {
+    border-bottom: none!important;
+}
+
+.border-radius-16 {
+    border-radius: 16px;
+}
+
+
+/* Borders */
+
+
+/* ------------------------------------------------------------------------ */
+
+
+/* Opacities */
+
+.opacity-06 {
+    opacity: 0.6;
+}
+
+.opacity-07 {
+    opacity: 0.7;
+}
+
+
+/* Opacities */
+
+
+/* ------------------------------------------------------------------------ */
+
+
+/* Cursor-Pointers */
+
+.c-pointer {
+    cursor: pointer;
+}
+
+
+/* Cursor-Pointers */
+
+
+/* ------------------------------------------------------------------------ */
+
+
+/* Text-Decoration */
+
+.td-none {
+    text-decoration: none;
+}
+
+
+/* Text-Decoration */
+
+
+/* ------------------------------------------------------------------------ */
+
+
+/* Others */
+
+.card {
+    border-top-left-radius: 10px!important;
+    border-top-right-radius: 10px!important;
+    margin-bottom: 15px!important;
+}
+
+.bg-photo {
+    height: 336px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, rgba(0, 0, 0, 0.54) 81.77%), url('../img/profile-bg.png');
+    border-top-left-radius: 10px!important;
+    border-top-right-radius: 10px!important;
+}
+
+.item {
+    border-bottom: 1px solid #E0E0E9;
+    padding: 10px 0px;
+}
+
+.item:last-child {
+    border-bottom: none;
+    padding-bottom: 0px;
+}
+
+.profile {
+    padding: 20px 0px;
+}
+
+.list {
+    background: #F5F7FB;
+    border-radius: 16px;
+    margin-bottom: 15px;
+}
+
+.justify-content-space-beetween {
+    justify-content: space-between;
+}
+
+
+/* Others */
+
+
+/* ------------------------------------------------------------------------ */
