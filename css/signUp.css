@@ -1,0 +1,286 @@
+/* Font Family */
+
+body {
+    font-family: Verdana, sans-serif;
+}
+
+
+/* Font Family */
+
+
+/* Widths and Max-Widths */
+
+.w-90p {
+    width: 90%;
+}
+
+.w-100p {
+    width: 100%;
+}
+
+.max-width-44p {
+    max-width: 44%;
+}
+
+.max-width-80p {
+    max-width: 80%;
+}
+
+
+/* Widths and Max-Widths */
+
+
+/* Heights */
+
+.h-1 {
+    height: 1.5px;
+}
+
+
+/* Heights */
+
+
+/* Paddings */
+
+.p-1624 {
+    padding: 16px 24px;
+}
+
+.pt-15 {
+    padding-top: 15px;
+}
+
+.pt-20 {
+    padding-top: 20px;
+}
+
+.pt-45 {
+    padding-top: 45px;
+}
+
+.pb-15 {
+    padding-bottom: 15px;
+}
+
+.pb-20 {
+    padding-bottom: 20px;
+}
+
+
+/* Paddings */
+
+
+/* Margins */
+
+.ml-16 {
+    margin-left: 16px;
+}
+
+.ml-20 {
+    margin-left: 20px;
+}
+
+.mr-16 {
+    margin-right: 16px;
+}
+
+.mr-20 {
+    margin-right: 20px;
+}
+
+.mt-20 {
+    margin-top: 20px;
+}
+
+.mt-24 {
+    margin-top: 24px;
+}
+
+.mb-15 {
+    margin-bottom: 15px;
+}
+
+
+/* Margins */
+
+
+/* Colors and BackgroundColors */
+
+.color-5D6A81 {
+    color: #5D6A81;
+}
+
+.color-26272A {
+    color: #26272A;
+}
+
+.color-959FB0 {
+    color: #959FB0;
+}
+
+.bg-F0F4FA {
+    background-color: #F0F4FA;
+}
+
+.bg-E3E8EF {
+    background-color: #E3E8EF;
+}
+
+.bg-EDF5FD {
+    background-color: #EDF5FD;
+}
+
+
+/* Colors and BackgroundColors */
+
+
+/* Fonts */
+
+.fw-500 {
+    font-weight: 500;
+}
+
+.fw-600 {
+    font-weight: 600;
+}
+
+.fs-14 {
+    font-size: 14px;
+}
+
+.fs-24 {
+    font-size: 24px;
+}
+
+
+/* Fonts */
+
+
+/* Letter Spacing */
+
+.letter-space-001 {
+    letter-spacing: 0.01rem;
+}
+
+
+/* Letter Spacing */
+
+
+/* Cursor-Pointer */
+
+.c-pointer {
+    cursor: pointer;
+}
+
+
+/* Cursor-Pointer */
+
+
+/* Border-Radius */
+
+.border-radius-16 {
+    border-radius: 16px;
+}
+
+
+/* Border-Radius */
+
+
+/* Custom Slider Configuration Section */
+
+.slider {
+    position: relative;
+    width: 480px;
+}
+
+.slider img {
+    max-width: 100%;
+    border-radius: 20px;
+}
+
+.content {
+    position: relative;
+    height: 470px;
+}
+
+.content .item {
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    transition: opacity 0.7s;
+}
+
+.dot {
+    height: 10px;
+    width: 10px;
+    margin: 0 2px;
+    background-color: #D7DCE3;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+
+.active-dot {
+    background-color: #F9CF00;
+}
+
+.content .item.active {
+    opacity: 1;
+    transition: opacity 0.7s;
+}
+
+
+/* Custom Slider Configuration Section */
+
+
+/* Media Queries */
+
+@media screen and (min-width: 270px) {
+    .slider {
+        width: 270px;
+    }
+    .content {
+        height: 340px;
+    }
+    .sign-up,
+    .slider-slideshow {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    .more span {
+        font-size: 10px;
+        max-width: 90%;
+    }
+}
+
+@media screen and (min-width: 325px) {
+    .slider {
+        width: 313px;
+    }
+    .content {
+        height: 390px;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .slider {
+        width: 485px;
+    }
+    .content {
+        position: relative;
+        height: 470px;
+    }
+    .sign-up,
+    .slider-slideshow {
+        padding-top: 0px;
+        padding-bottom: 0px;
+    }
+    .more span {
+        font-size: 14px;
+        max-width: 80%;
+    }
+}
+
+
+/* Media Queries */

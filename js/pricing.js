@@ -4,7 +4,8 @@ let button = document.querySelectorAll(".btnAcc");
 
 for (let i = 0; i < button.length; i++) {
     button[i].addEventListener("click", function() {
-        let selectedAttr = this.firstElementChild.firstElementChild;
+        // let selectedAttr = this.firstElementChild.firstElementChild;
+        // console.log(selectedAttr);
         if (!this.nextElementSibling.classList.contains("show") && !this.classList.contains("active")) {
             document.querySelector(".item .text.show").classList.remove("show");
             let getAttr = document.querySelector(".item .btnAcc.active .photo img");
@@ -18,3 +19,5 @@ for (let i = 0; i < button.length; i++) {
         }
     })
 }
+
+//Accordion Menu
